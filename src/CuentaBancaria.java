@@ -1,12 +1,29 @@
+    //Nombre de la clase
 class CuentaBancaria {
+    /*
+    *  __________________
+    * | CuentaBancaria  |
+    * |_________________|
+    * | numeroCuenta    |
+    * | saldo           |
+    * |_________________|
+    * | transferir      |
+    * | imprimirSaldo   |
+    * ___________________
+    *
+    * */
+
+    //atributos______________________________________________________________________
     private int numeroCuenta;
     private double saldo;
 
+    //constructor
     public CuentaBancaria(int numeroCuenta, double saldo) {
         this.numeroCuenta = numeroCuenta;
         this.saldo = saldo;
     }
 
+    //métodos_______________________________________________________________________
     public void transferir(CuentaBancaria destino, double monto) {
         // Verificar si hay suficiente saldo en la cuenta origen
         if (this.saldo >= monto) {
