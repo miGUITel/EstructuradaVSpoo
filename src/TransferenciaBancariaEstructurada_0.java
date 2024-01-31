@@ -1,4 +1,4 @@
-public class TransferenciaBancariaEstructurada {
+public class TransferenciaBancariaEstructurada_0 {
     public static void main(String[] args) {
         // Definir datos de cuentas
         int cuentaOrigen = 123456;

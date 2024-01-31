@@ -17,7 +17,7 @@ class CuentaBancariaPOO_3_constructor {
     private int numeroCuenta;
     private double saldo;
 
-    //3
+//3
     //constructor
     public CuentaBancariaPOO_3_constructor(int numeroCuenta, double saldo) {
         this.numeroCuenta = numeroCuenta;
