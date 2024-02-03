@@ -1,5 +1,7 @@
-    //Nombre de la clase
-class CuentaBancariaPOO_3_constructor {
+package Banco;
+
+//Nombre de la clase
+class CuentaBancaria_0_POO_3_constructor {
     /*
     *  __________________
     * | CuentaBancaria  |
@@ -19,13 +21,13 @@ class CuentaBancariaPOO_3_constructor {
 
 //3
     //constructor
-    public CuentaBancariaPOO_3_constructor(int numeroCuenta, double saldo) {
+    public CuentaBancaria_0_POO_3_constructor(int numeroCuenta, double saldo) {
         this.numeroCuenta = numeroCuenta;
         this.saldo = saldo;
     }
 
     //métodos_______________________________________________________________________
-    public void transferir(CuentaBancariaPOO_3_constructor destino, double monto) {
+    public void transferir(CuentaBancaria_0_POO_3_constructor destino, double monto) {
         // Verificar si hay suficiente saldo en la cuenta origen
         if (this.saldo >= monto) {
             // Realizar la transferencia de 'monto' euros

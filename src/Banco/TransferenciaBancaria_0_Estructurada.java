@@ -1,4 +1,12 @@
-public class TransferenciaBancariaEstructurada_0 {
+package Banco;
+
+public class TransferenciaBancaria_0_Estructurada {
+    /*
+    * EJEMPLO COMPARACIÓN PROGRAMACIÓN ESTRUCTURADA VS POO
+    * Esta clase realiza una transferencia entre dos cuentas bancarias
+    * En primer lugar se deben crear variables que almacenen los datos de ambas cuentas
+    * A continuación se opera con las cuentas
+    * */
     public static void main(String[] args) {
         // Definir datos de cuentas
         int cuentaOrigen = 123456;

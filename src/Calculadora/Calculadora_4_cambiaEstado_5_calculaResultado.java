@@ -1,4 +1,6 @@
-public class Calculadora_4cambiaEstado_5calculaResultado {
+package Calculadora;
+
+public class Calculadora_4_cambiaEstado_5_calculaResultado {
 
     // Atributos
     private boolean estadoEncendido;
