@@ -1,3 +1,5 @@
+package Instituto;
+
 public class FichaAlumno_7constructorSobrecarga {
     /*
     * Esta clase tiene 4 atributos y 4 constructores diferenciados en el número de parámetros
@@ -57,10 +59,10 @@ public class FichaAlumno_7constructorSobrecarga {
     @Override
     public String toString() {
         return "FichaAlumno{" +
-                "nombre='" + nombre + '\'' +
-                ", apellidos='" + apellidos + '\'' +
+                "nombre=" + nombre +
+                ", apellidos=" + apellidos +
                 ", edad=" + edad +
-                ", dni='" + dni + '\'' +
+                ", dni=" + dni +
                 ", notaMedia=" + notaMedia +
                 '}';
     }

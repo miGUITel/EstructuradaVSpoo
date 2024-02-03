@@ -16,7 +16,7 @@ class CuentaBancaria_0_POO_3_constructor {
     * */
 
     //atributos______________________________________________________________________
-    private int numeroCuenta;
+    private final int numeroCuenta;
     private double saldo;
 
 //3

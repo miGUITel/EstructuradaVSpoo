@@ -1,6 +1,6 @@
 package Calculadora;
 
-public class Main_4_6_estados {
+public class Main_6_estados {
     public static void main(String[] args) {
         Calculadora_4_cambiaEstado_5_calculaResultado miCalculadora = new Calculadora_4_cambiaEstado_5_calculaResultado();
 

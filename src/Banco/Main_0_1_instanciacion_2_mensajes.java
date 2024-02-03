@@ -13,7 +13,7 @@ public class Main_0_1_instanciacion_2_mensajes {
 
         // Imprimir saldos después de la transferencia
     //2
-        //Esto es un mensaje, la clase TransferenciaBancaria00 solicita el uso de
+        //Esto es un mensaje, la clase Main... solicita el uso de
         //un método de la clase CuentaBancaria
         cuentaOrigen.imprimirSaldo();
         cuentaDestino.imprimirSaldo();
