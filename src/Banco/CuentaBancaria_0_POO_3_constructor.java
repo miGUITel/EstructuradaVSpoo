@@ -1,5 +1,7 @@
 package Banco;
 
+//La he abierto en clases y he modificado esta parte del código.
+
 //Nombre de la clase
 class CuentaBancaria_0_POO_3_constructor {
     /*
@@ -9,8 +11,8 @@ class CuentaBancaria_0_POO_3_constructor {
     * | numeroCuenta    |
     * | saldo           |
     * |_________________|
-    * | transferir      |
-    * | imprimirSaldo   |
+    * | transferir()      |
+    * | imprimirSaldo()   |
     * ___________________
     *
     * */
@@ -30,9 +32,12 @@ class CuentaBancaria_0_POO_3_constructor {
     public void transferir(CuentaBancaria_0_POO_3_constructor destino, double monto) {
         // Verificar si hay suficiente saldo en la cuenta origen
         if (this.saldo >= monto) {
+
             // Realizar la transferencia de 'monto' euros
             this.saldo -= monto;
+
             destino.saldo += monto;
+
             System.out.println("Transferencia exitosa de " + monto + " € de la cuenta " +
                     this.numeroCuenta + " a la cuenta " + destino.numeroCuenta);
         } else {
