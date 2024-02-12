@@ -1,7 +1,8 @@
 package POO_HerenciaSINConstructores;
 
 public class Vehiculo {
-    private String nombre;
+    //canbiar a private para ver el error
+    public String nombre;
 
     public void transportar() {
         System.out.println("El vehículo " + nombre + " está transportando.");
