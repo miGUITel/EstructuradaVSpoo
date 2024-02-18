@@ -2,7 +2,7 @@ package Instituto;
 
 public class FichaAlumno_7constructorSobrecarga {
     /*
-    * Esta clase tiene 4 atributos y 4 constructores diferenciados en el número de parámetros
+    * Esta clase tiene 5 atributos y 4 constructores diferenciados en el número de parámetros
     * que reciben.
     * En main, se instancian 4 objetos de la clase y se muestra su estado.
     * Para mostrar el estado se ha sobreescrito el método toString.
