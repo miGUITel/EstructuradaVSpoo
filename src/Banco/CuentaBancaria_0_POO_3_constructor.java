@@ -11,22 +11,22 @@ class CuentaBancaria_0_POO_3_constructor {
     * | numeroCuenta    |
     * | saldo           |
     * |_________________|
-    * | transferir()      |
-    * | imprimirSaldo()   |
+    * | transferir()    |
+    * | imprimirSaldo() |
     * ___________________
     *
     * */
-
-    //atributos______________________________________________________________________
-    private final int numeroCuenta;
-    private double saldo;
-
 //3
     //constructor
     public CuentaBancaria_0_POO_3_constructor(int numeroCuenta, double saldo) {
         this.numeroCuenta = numeroCuenta;
         this.saldo = saldo;
     }
+
+
+    //atributos______________________________________________________________________
+    private final int numeroCuenta;
+    private double saldo;
 
     //métodos_______________________________________________________________________
     public void transferir(CuentaBancaria_0_POO_3_constructor destino, double monto) {

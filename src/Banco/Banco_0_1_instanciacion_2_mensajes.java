@@ -1,6 +1,6 @@
 package Banco;
 
-public class Main_0_1_instanciacion_2_mensajes {
+public class Banco_0_1_instanciacion_2_mensajes {
     public static void main(String[] args) {
         // Crear objetos de cuentas
     //1

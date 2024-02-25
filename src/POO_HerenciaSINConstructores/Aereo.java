@@ -7,4 +7,6 @@ public class Aereo extends Vehiculo {
     public void volar() {
         System.out.println("El vehículo aéreo " + nombre + " está volando con carga " + tipoCarga + ".");
     }
+
+
 }

@@ -14,4 +14,8 @@ public class Lavadora2 {
         // Implementación del método público apagar
         System.out.println("La lavadora ha sido apagada.");
     }
+
+    private void lavar(){
+        System.out.println("La lavadora " + this.toString() + " se pone a trabajar");
+    }
 }

@@ -3,7 +3,8 @@ package Polimorfismo.SalarioEmpleado;
 class Diseñador extends Empleado {
     private double horasExtra;
 
-    public Diseñador(String nombre, double salarioBase, double horasExtra) {
+    public Diseñador(String nombre, double salarioBase,
+                     double horasExtra) {
         super(nombre, salarioBase);
         this.horasExtra = horasExtra;
     }

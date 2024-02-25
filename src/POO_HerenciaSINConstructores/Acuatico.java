@@ -1,10 +1,10 @@
 package POO_HerenciaSINConstructores;
 
 // Clase Acuatico (subclase de Vehiculo)
-public class AcuaticoVerERROR extends Vehiculo {
+public class Acuatico extends Vehiculo {
     private String tipoAgua;
 
-    //¿Por qué hay un error al acceder a nombre?
+    //¿Por qué hay un error al acceder a nombre cuando la visibilidad en Vehiculo.nombre es privada?
     public void navegar() {
         System.out.println("El vehículo acuático " + nombre + " está navegando en " + tipoAgua + ".");
     }

@@ -17,17 +17,19 @@ public class Casa {
         lavadora3 = new Lavadora3();
     }
 
+
+
     public static void main(String[] args) {
         // Construir una casa (las lavadoras se instanciarán en el constructor)
         Casa miCasa = new Casa();
 
         // Acceder a los atributos y métodos desde el main
 
-        // Lavadora1
-        // Atributos privados
-        // miCasa.lavadora1.marca = "Bosh"; // No se puede acceder directamente a marca
-        // miCasa.lavadora1.encendida; // No se puede acceder directamente a encendida
-        // miCasa.lavadora1.edad; // No se puede acceder directamente a edad
+//         Lavadora1
+//         Atributos privados
+//         miCasa.lavadora1.marca = "Bosh"; // No se puede acceder directamente a marca
+//         miCasa.lavadora1.encendida; // No se puede acceder directamente a encendida
+//         miCasa.lavadora1.edad; // No se puede acceder directamente a edad
 
         // Métodos públicos
         miCasa.lavadora1.apagar(); // Se puede acceder al método público apagar
@@ -52,5 +54,15 @@ public class Casa {
         // Métodos públicos
         miCasa.lavadora3.encender(); // Se puede acceder al método público encender
         miCasa.lavadora3.apagar(); // Se puede acceder al método público apagar
+    }
+/*
+
+ */
+    public void lavar(Lavadora1 utilizada){
+        utilizada.lavar();
+    }
+
+    public void lavar(Lavadora2 utilizada){
+    //    utilizada.lavar(); //intento utilizar un método privado
     }
 }

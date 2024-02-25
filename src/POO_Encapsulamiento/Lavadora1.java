@@ -16,4 +16,8 @@ public class Lavadora1 {
         encendida = false;
         System.out.println("La lavadora ha sido apagada.");
     }
+
+    public void lavar(){
+        System.out.println("La lavadora " + this.toString() + " se pone a trabajar");
+    }
 }

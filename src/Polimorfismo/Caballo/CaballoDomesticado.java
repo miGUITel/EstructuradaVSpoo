@@ -1,6 +1,6 @@
 package Polimorfismo.Caballo;
 
-public class CaballoDomesticado {
+public class CaballoDomesticado extends Caballo{
     //Atributos
 
     //Métodos
