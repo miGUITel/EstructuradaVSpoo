@@ -26,3 +26,8 @@ public class Banco_0_1_instanciacion_2_mensajes {
         cuentaDestino.imprimirSaldo();
     }
 }
+
+/* REFLEXIONAR SOBRE QUIEN HACE LA TRANSFERENCIA
+* EN ESTE CASO... cuentaOrigen.transferir(cuentaDestino, 100.0);
+* EN LA REALIDAD? (las cuentas solo almacenan datos, la transferencia la hace el banco, o el cajero, o el gestor...)
+*  */
