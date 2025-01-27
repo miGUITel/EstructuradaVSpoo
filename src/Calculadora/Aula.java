@@ -8,6 +8,11 @@ public class Aula {
 
         Alumno bernardo = new Alumno();
         bernardo.hacerExamen();
+
+        CalculadoraEstatica.encender();
+        CalculadoraEstatica.apagar();
+        int resultado = CalculadoraEstatica.sumar(5,11);
+        resultado = 0;
     }
 
 }
