@@ -5,6 +5,11 @@ public class Banco_0_1_instanciacion_2_mensajes {
         // Crear objetos de cuentas
     //1
         //Esto es una instanciación, es como crear una variable con un tipo de datos personalizado
+        int a;
+        a = 0;
+        CuentaBancaria_0_POO_3_constructor cuentaMiguel;
+        cuentaMiguel = new CuentaBancaria_0_POO_3_constructor(6,6);
+
         CuentaBancaria_0_POO_3_constructor cuentaOrigen = new CuentaBancaria_0_POO_3_constructor(123456, 500.0);
         //Compara con estructurada:
         //      int cuentaDestino = 789012;

@@ -33,7 +33,7 @@ public class Casa {
 
         // Métodos públicos
         miCasa.lavadora1.apagar(); // Se puede acceder al método público apagar
-        // miCasa.lavadora1.envejecer(); // No se puede acceder directamente al método privado envejecer
+        //miCasa.lavadora1.envejecer(); // No se puede acceder directamente al método privado envejecer
 
         // Lavadora2
         // Atributos privados
